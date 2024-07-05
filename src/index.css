@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "@flaticon/flaticon-uicons/css/all/all";
+@layer components {
+    * {
+        @apply m-0 p-0 box-border font-inter;
+    }
+    body {
+        @apply bg-black text-white box-border overflow-x-hidden
+    }
+    .navbar-link {
+        @apply text-xl m-3 tracking-wide
+    }
+    .social-media-icon {
+        @apply text-2xl text-blue-300
+    }
+    .active {
+        @apply text-pink-600
+    }
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.skills-img {
+    height: 100px;
+    width: 100px;
+}
+
+.skills-image-rating-div {
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+    margin: 23%;
+    box-shadow: inset 5rem 5rem 5rem 1rem #adb5bd;
+}
+
+.skills-image-div,
+.skills-rating-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding-top: 4%;
+    padding-bottom: 10%;
+    box-shadow: inset 0rem 0rem 1rem 1rem #fff;
+    /* box-shadow: inset 0rem 0rem 3rem 3rem #fff; */
+}
