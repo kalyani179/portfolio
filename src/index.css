@@ -15,10 +15,10 @@
         @apply text-xl m-3 tracking-wide
     }
     .social-media-icon {
-        @apply text-2xl text-blue-300
+        @apply text-2xl text-pink-600
     }
     .active {
-        @apply text-pink-600
+        @apply text-white
     }
 }
 
