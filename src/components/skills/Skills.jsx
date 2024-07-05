@@ -49,8 +49,9 @@ const Skills = () => {
     ]
     };
     return (
-        <div className="bg-black shadow-xl rounded-3xl m-5">
-            <h1 className="text-center text-5xl py-10">Skills</h1>
+        <div className="bg-black shadow-xl rounded-[100px] m-5">
+            <h1 className="heading">Skills</h1>
+            <p className="tagline">Skills are the keys to unlock doors of opportunity. They empower individuals to transform challenges into achievements, paving the way for innovation and growth.</p>
             <div className="flex justify-center items-center">
                 <div className="w-full md:w-3/4 lg:w-2/3 xl:w-11/12">
                     <Slider {...settings}>
