@@ -6,7 +6,7 @@ const About = () => {
         setActiveTab(tabNumber);
     }
     return (
-        <div className="block mx-auto">
+        <div className="block mx-auto pb-10" id="about">
             <div>
                 <h1 className="heading">About Me</h1>
                 <p className="tagline">I am a passionate and skilled software developer specializing in the MERN stack, dedicated to building innovative and user-friendly applications.</p>

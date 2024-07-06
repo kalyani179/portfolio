@@ -32,6 +32,9 @@
     .active-tab {
         @apply transition duration-300 ease-in-out
     }
+    .active {
+        @apply text-pink-500
+    }
 }
 
 body::-webkit-scrollbar {
@@ -41,6 +44,10 @@ body::-webkit-scrollbar {
 .active-tab,
 .project-buttons {
     background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+}
+
+.skills-div {
+    box-shadow: inset 0rem 0rem 1rem 1rem rgba(170, 54, 124, 0.3);
 }
 
 .skills-img {

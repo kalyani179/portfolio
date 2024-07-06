@@ -16,8 +16,8 @@ function CreateEntry(projects){
 
 const Projects = () => {
     return (
-        <div className="py-14">
-            <h1 className="heading mb-10">Projects</h1>
+        <div className="py-14" id="projects">
+            <h1 className="heading mb-7">Projects</h1>
             <div className="flex flex-wrap justify-center space-x-10 mx-1">
                 {MyProjects.map(CreateEntry)}
             </div>
