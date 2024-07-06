@@ -1,10 +1,8 @@
 import React from 'react'
-import backgroundImage1 from '../../assets/images/home/background1.png';
-import backgroundImage2 from '../../assets/images/home/background2.png';
 
 const Experience = () => {
     return (
-        <div className="bg-cover bg-center bg-repeat" style={{ backgroundImage: `url(${backgroundImage1}), url(${backgroundImage2})` }} >
+        <div>
             <h1 className="heading">Experience</h1>
         </div>
     )

@@ -1,10 +1,26 @@
 import React from 'react'
-import backgroundImage1 from '../../assets/images/home/background1.png';
-import backgroundImage2 from '../../assets/images/home/background2.png';
+import ProjectsEntry from './ProjectsEntry';
+import MyProjects from './myProjects';
+
+function CreateEntry(projects){
+    return <div>
+    <ProjectsEntry 
+        key = {projects.id}
+        name = {projects.name}
+        url = {projects.url}
+        logo = {projects.logo}
+        description = {projects.description}
+    />
+    </div>
+}
+
 const Projects = () => {
     return (
-        <div className="bg-cover bg-center bg-repeat" style={{ backgroundImage: `url(${backgroundImage1}), url(${backgroundImage2})` }} >
-            <h1 className="heading">Projects</h1>
+        <div className="py-14">
+            <h1 className="heading mb-10">Projects</h1>
+            <div className="flex flex-wrap justify-center space-x-10 mx-1">
+                {MyProjects.map(CreateEntry)}
+            </div>
         </div>
     )
 }

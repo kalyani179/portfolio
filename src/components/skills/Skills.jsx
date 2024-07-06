@@ -49,7 +49,7 @@ const Skills = () => {
     ]
     };
     return (
-        <div className="bg-black shadow-2xl rounded-[100px] m-5">
+        <div className="bg-black shadow-2xl rounded-[100px] mx-5 mt-20">
             <h1 className="heading">Skills</h1>
             <p className="tagline">Skills are the keys to unlock doors of opportunity. They empower individuals to transform challenges into achievements, paving the way for innovation and growth.</p>
             <div className="flex justify-center items-center">

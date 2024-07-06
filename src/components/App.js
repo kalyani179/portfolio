@@ -8,12 +8,16 @@ import Experience from "./experience/Experience";
 
 function App() {
   return (
+    <div>
     <div className="bg-cover bg-center bg-repeat" style={{ backgroundImage: `url(${backgroundImage1}), url(${backgroundImage2})` }} >
         <Home />
         <About />
         <Skills />
+    </div>
+    <div className="bg-cover bg-center bg-repeat" style={{ backgroundImage: `url(${backgroundImage1}), url(${backgroundImage2})` }} >
         <Projects />
         <Experience />
+    </div>
     </div>
   );
 }
