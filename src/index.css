@@ -27,15 +27,19 @@
         @apply text-center text-xl mx-44
     }
     .tab {
-        @apply text-xl bg-transparent duration-700 border-r-2 border-b border-b-white/50 border-white/50 py-3 px-32
+        @apply text-xl bg-transparent border-r-2 border-b border-b-white/50 border-white/50 py-3 px-32
     }
     .active-tab {
-        @apply bg-pink-700 duration-1000
+        @apply transition duration-300 ease-in-out
     }
 }
 
 body::-webkit-scrollbar {
     display: none;
+}
+
+.active-tab {
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
 }
 
 .skills-img {

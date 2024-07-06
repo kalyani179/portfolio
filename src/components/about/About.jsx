@@ -13,11 +13,11 @@ const About = () => {
             </div>
             <div className="flex justify-center items-center my-10 w-screen">
                 <div className="border border-white/50 rounded-3xl">
-                    <button className={`tab ${activeTab===1 ? "active-tab rounded-l-3xl":""}`} onClick={()=>handleTabClick(1)}>Education</button>
+                    <button className={`tab ${activeTab===1 ? "active-tab rounded-tl-3xl":""}`} onClick={()=>handleTabClick(1)}>Education</button>
                     <button className={`tab ${activeTab===2 ? "active-tab" : ""}`} onClick={()=>handleTabClick(2)}>Favourites</button>
-                    <button className={`tab border-r-0 ${activeTab===3 ? "active-tab rounded-r-3xl" : ""}`} onClick={()=>handleTabClick(3)}>Achievements</button>
+                    <button className={`tab border-r-0 ${activeTab===3 ? "active-tab rounded-tr-3xl" : ""}`} onClick={()=>handleTabClick(3)}>Achievements</button>
         
-                <div className="p-7 py-10">
+                <div className="p-7 bg-white bg-opacity-5 py-10">
                 {activeTab===1 && 
                 <div className=''>
                 <ul className="text-xl space-y-5">
