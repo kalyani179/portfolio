@@ -5,6 +5,7 @@ import MySkills from "./mySkills";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { Fade} from 'react-reveal';
 
 function CreateEntry(skills) {
     return (
@@ -49,6 +50,7 @@ const Skills = () => {
     ]
     };
     return (
+        <Fade duration={1500}>
         <div className="skills-div rounded-[100px] mx-5" id="skills">
             <h1 className="heading">Skills</h1>
             <p className="tagline">Skills are the keys to unlock doors of opportunity. They empower individuals to transform challenges into achievements, paving the way for innovation and growth.</p>
@@ -59,8 +61,8 @@ const Skills = () => {
                     </Slider>
                 </div>
             </div>
-
         </div>
+        </Fade>
     );
 }
 

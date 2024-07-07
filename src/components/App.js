@@ -5,6 +5,7 @@ import Skills from "./skills/Skills";
 import About from "./about/About";
 import Projects from "./projects/Projects";
 import Experience from "./experience/Experience";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -14,11 +15,11 @@ function App() {
         <About />
         
     </div>
-    
     <div className="bg-cover bg-center bg-repeat" style={{ backgroundImage: `url(${backgroundImage1}), url(${backgroundImage2})` }} >
-    <Skills />
+        <Skills />
         <Projects />
         <Experience />
+        <Footer />
     </div>
     </div>
   );

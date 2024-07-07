@@ -1,7 +1,9 @@
 import React from 'react'
+import {Zoom } from 'react-reveal'
 
 const ProjectsEntry = (props) => {
     return (
+        <Zoom duration={2000}>
         <div className="border border-white/50 p-5 w-96 rounded-2xl bg-white/10">
             <img src={props.logo} className="w-96 h-40 rounded-2xl" alt="" />
             <p className="text-xl text-center my-4">{props.name}</p>
@@ -12,6 +14,7 @@ const ProjectsEntry = (props) => {
                 <a href={props.url} target="_blank" rel="noreferrer"><button className="project-buttons p-2 rounded-full px-4 hover:bg-opacity-70">View Website</button></a>
             </div>
         </div>
+        </Zoom>
     )
 }
 

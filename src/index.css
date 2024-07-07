@@ -12,7 +12,7 @@
         @apply bg-black text-white box-border overflow-x-hidden
     }
     .navbar-link {
-        @apply text-xl m-3 tracking-wide
+        @apply text-xl m-3 tracking-wide hover:text-pink-500
     }
     .social-media-icon {
         @apply text-2xl text-pink-600
@@ -32,9 +32,9 @@
     .active-tab {
         @apply transition duration-300 ease-in-out
     }
-    .active {
-        @apply text-pink-500
-    }
+    /* .active {
+        @apply
+    } */
 }
 
 body::-webkit-scrollbar {
