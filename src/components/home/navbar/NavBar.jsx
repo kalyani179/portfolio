@@ -50,7 +50,7 @@ const NavBar = () => {
             </Nav>
         </Navbar.Collapse>
         <div>
-            <button className="ml-20 border border-white border-opacity-50 px-5 py-2 text-xl hover:bg-white hover:text-black">Let's Connect</button>
+            <button className="ml-20 border border-white border-opacity-50 px-5 py-2 text-xl hover:bg-[#AA367C]/80"><a target="_" href="https://www.linkedin.com/in/kalyani-dantuluri-5a253023b/">Let's Connect</a></button>
         </div>
         </Container>
     </Navbar>

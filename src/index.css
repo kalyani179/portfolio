@@ -12,10 +12,10 @@
         @apply bg-black text-white box-border overflow-x-hidden
     }
     .navbar-link {
-        @apply text-xl m-3 tracking-wide hover:text-pink-500
+        @apply text-xl m-3 tracking-wide hover:text-[#AA367C]
     }
     .social-media-icon {
-        @apply text-2xl text-pink-600
+        @apply text-2xl gradient-text
     }
     .active {
         @apply text-white
@@ -40,6 +40,14 @@
 body::-webkit-scrollbar {
     display: none;
 }
+
+.gradient-text {
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 
 .active-tab,
 .project-buttons {

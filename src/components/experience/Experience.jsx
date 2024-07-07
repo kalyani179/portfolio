@@ -11,6 +11,7 @@ const CreateEntry = (experience) => {
                 name={experience.name}
                 type={experience.type}
                 role={experience.role}
+                period = {experience.period}
                 description={experience.description}
             />
         </Fade>
@@ -29,7 +30,7 @@ const Experience = () => {
             <div className="flex justify-center">
                 <div className="border border-b-0 border-r-0 border-white/50">
                     <button className={`tab ${activeTab===1 ? "active-tab":""}`} onClick={()=>handleTabClick(1)}>Internships</button>
-                    <button className={`tab ${activeTab===2 ? "active-tab" : ""}`} onClick={()=>handleTabClick(2)}>Jobs</button>
+                    <button disabled className={`tab ${activeTab===2 ? "active-tab" : ""}`} onClick={()=>handleTabClick(2)}>Jobs</button>
                 </div>
             </div>
             <div>

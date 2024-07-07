@@ -10,7 +10,9 @@ const Body = () => {
             </Bounce>
             <div className="mt-20 space-y-1">
             <Zoom duration={1500}>
-                <h1 className="text-[50px] font-playfairdisplay italic font-bold">Hey, I'm Kalyani Dantuluri.</h1>
+            <h1 className="text-[50px] font-playfairdisplay italic font-bold">
+                Hey, I'm <span className="gradient-text">Kalyani </span> Dantuluri.
+            </h1>
             </Zoom>
             <Zoom duration={1500}>
                 <p className="font-gelasio text-2xl text-center w-[85%]">Welcome to my Portfolio! Here is where you can explore more about me,my skills,my projects,my experiences.
@@ -26,7 +28,7 @@ const Body = () => {
                     <a target="_" href="https://github.com/kalyani179"><i class="fi fi-brands-github social-media-icon"></i></a>
                 </Rotate>
                 <Rotate duration={3000}>
-                    <a target="_" href="mailto:dantulurikalyani999@gmail.com"><i class="fi fi-rr-envelope social-media-icon"></i></a> 
+                    <a target="_" href="mailto:dantulurikalyani999@gmail.com"><i class="fi fi-sr-envelope social-media-icon"></i></a> 
                 </Rotate>
             </div>
         </Fade>
