@@ -10,9 +10,9 @@ function Entry(props){
                     </Flip>
                 </div>
                 <Bounce clear duration={5000}>
-                <div className="skills-rating-div mt-1">
-                    <p>{props.rating}</p>
-                </div>
+                    <div className="skills-rating-div mt-1">
+                        <p>{props.rating}</p>
+                    </div>
                 </Bounce>
             </div>
         )
