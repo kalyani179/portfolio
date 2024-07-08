@@ -25,8 +25,15 @@ const Skills = () => {
         dots: false,
         infinite: true,
         speed: 2000,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         responsive: [
+        {
+            breakpoint: 480, // Adjust the breakpoint according to your design
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll:1
+            }
+        },
         {
         breakpoint: 768, // Adjust the breakpoint according to your design
         settings: {
@@ -44,14 +51,15 @@ const Skills = () => {
         {
         breakpoint: 1440, // Adjust the breakpoint according to your design
         settings: {
-            slidesToShow: 4
+            slidesToShow: 4,
+            slidesToScroll: 4
         }
         }
     ]
     };
     return (
         <Fade duration={1500}>
-        <div className="skills-div rounded-[100px] mx-5" id="skills">
+        <div className="skills-div rounded-[100px] mx-5 sm:mx-6" id="skills">
             <h1 className="heading">Skills</h1>
             <p className="tagline">Skills are the keys to unlock doors of opportunity. They empower individuals to transform challenges into achievements, paving the way for innovation and growth.</p>
             <div className="flex justify-center items-center">

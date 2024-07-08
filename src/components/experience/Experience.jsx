@@ -28,14 +28,14 @@ const Experience = () => {
         <div id="experience" className="flex flex-col">
             <h1 className="heading my-5">Experience</h1>
             <div className="flex justify-center">
-                <div className="border border-b-0 border-r-0 border-white/50">
-                    <button className={`tab ${activeTab===1 ? "active-tab":""}`} onClick={()=>handleTabClick(1)}>Internships</button>
-                    <button disabled className={`tab ${activeTab===2 ? "active-tab" : ""}`} onClick={()=>handleTabClick(2)}>Jobs</button>
-                </div>
+            <div className="grid grid-cols-2 border border-b-0 border-r-0 border-white/50">
+                <button className={`tab sm:px-10 ${activeTab===1 ? "active-tab":""}`} onClick={()=>handleTabClick(1)}>Internships</button>
+                <button disabled className={`tab ${activeTab===2 ? "active-tab" : ""}`} onClick={()=>handleTabClick(2)}>Jobs</button>
             </div>
+        </div>
             <div>
                     {activeTab === 1 &&
-                        <div className="flex sm:flex-wrap justify-center mx-32 my-10 sm:mx-10">
+                        <div className="flex sm:flex-wrap justify-center mx-32 my-10 sm:mx-3 md:mx-2">
                             {myExperience.map(CreateEntry)}
                         </div>
                     }
