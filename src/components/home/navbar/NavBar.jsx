@@ -30,7 +30,7 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className={"me-auto border border-white border-opacity-25 rounded-3xl px-6 py-2"}>
+            <Nav className={"me-auto border border-white border-opacity-25 rounded-3xl px-6 py-2 sm:hidden md:hidden"}>
             <Nav.Link href="#home" className={activeLink==="home" ? "navbar-link active" : "navbar-link"} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#about" className={activeLink==="about" ? "navbar-link active" : "navbar-link"} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
             <Nav.Link href="#skills" className={activeLink==="skills" ? "navbar-link active" : "navbar-link"} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
@@ -49,8 +49,8 @@ const NavBar = () => {
             </NavDropdown> */}
             </Nav>
         </Navbar.Collapse>
-        <div>
-            <button className="ml-20 border border-white border-opacity-50 px-5 py-2 text-xl hover:bg-[#AA367C]/80"><a target="_" href="https://www.linkedin.com/in/kalyani-dantuluri-5a253023b/">Let's Connect</a></button>
+        <div classname="">
+            <button className="sm:hidden md:hidden ml-20 border border-white border-opacity-50 px-5 py-2 text-xl hover:bg-[#AA367C]/80"><a target="_" href="https://www.linkedin.com/in/kalyani-dantuluri-5a253023b/">Let's Connect</a></button>
         </div>
         </Container>
     </Navbar>

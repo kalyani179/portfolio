@@ -11,6 +11,9 @@
     body {
         @apply bg-black text-white box-border overflow-x-hidden
     }
+    .center{
+        @apply block mx-auto
+    }
     .navbar-link {
         @apply text-xl m-3 tracking-wide hover:text-[#AA367C]
     }
@@ -21,13 +24,13 @@
         @apply text-white
     }
     .heading {
-        @apply text-center text-6xl font-bold tracking-wide pt-10 pb-7
+        @apply text-center text-6xl sm:text-4xl md:text-4xl font-bold tracking-wide pt-10 pb-7
     }
     .tagline {
-        @apply text-center text-xl mx-44
+        @apply text-center text-xl sm:text-base md:text-lg mx-44 sm:mx-4 md:mx-5
     }
     .tab {
-        @apply text-xl bg-transparent border-r-2 border-b border-b-white/50 border-white/50 py-3 px-32
+        @apply text-xl sm:text-lg md:text-lg bg-transparent border-r-2 border-b border-b-white/50 border-white/50 py-3 px-32 sm:px-[9%] md:px-16
     }
     .active-tab {
         @apply transition duration-300 ease-in-out

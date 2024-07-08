@@ -4,7 +4,7 @@ import {Zoom } from 'react-reveal'
 const ProjectsEntry = (props) => {
     return (
         <Zoom duration={2000}>
-        <div className="border border-white/50 p-5 w-96 rounded-2xl bg-white/10">
+        <div className="border border-white/50 p-5 my-3 w-96 rounded-2xl bg-white/10">
             <img src={props.logo} className="w-96 h-40 rounded-2xl" alt="" />
             <p className="text-xl text-center my-4">{props.name}</p>
             <div className="flex flex-col">

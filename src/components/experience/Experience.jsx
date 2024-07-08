@@ -35,7 +35,7 @@ const Experience = () => {
             </div>
             <div>
                     {activeTab === 1 &&
-                        <div className="flex justify-center mx-32 my-10">
+                        <div className="flex sm:flex-wrap justify-center mx-32 my-10 sm:mx-10">
                             {myExperience.map(CreateEntry)}
                         </div>
                     }
