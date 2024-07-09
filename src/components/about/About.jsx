@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className="flex justify-center items-center my-10 sm:mx-4 sm:w-[90%] md:w-[95%] md:mx-5">
                 <div className="border border-white/50 rounded-3xl">
-                    <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3">
+                    <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
                     <button className={`tab ${activeTab===1 ? "active-tab rounded-tl-3xl":""}`} onClick={()=>handleTabClick(1)}>Education</button>
                     <button className={`tab ${activeTab===2 ? "active-tab" : ""}`} onClick={()=>handleTabClick(2)}>Favourites</button>
                     <button className={`tab border-r-0 ${activeTab===3 ? "active-tab rounded-tr-3xl" : ""}`} onClick={()=>handleTabClick(3)}>Strengths</button>

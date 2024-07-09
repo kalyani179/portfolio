@@ -35,13 +35,13 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" className={isNavOpen ? 'open' : ''}>
             <span className="navbar-toggler-icon"></span>
             <div className="absolute top-5 right-3 sm:z-50 md:z-50 lg:z-50">
-                <button className="lg:hidden" onClick={toggleNav}>
+                <button className="xl:hidden" onClick={toggleNav}>
                     {isNavOpen ? <i className="fi fi-rr-cross-small text-xl"></i> : <i className="fi fi-br-menu-burger sm:z-50"></i>}
                 </button>
             </div>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className={`sm:hidden md:hidden max-lg:hidden me-auto border border-white border-opacity-25 rounded-3xl px-6 py-2`}>
+        <Nav className={`sm:hidden md:hidden lg:hidden me-auto border border-white border-opacity-25 rounded-3xl px-6 py-2`}>
                 <Nav.Link href="#home" className={activeLink === "home" ? "navbar-link active" : "navbar-link"} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
                 <Nav.Link href="#about" className={activeLink === "about" ? "navbar-link active" : "navbar-link"} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
                 <Nav.Link href="#skills" className={activeLink === "skills" ? "navbar-link active" : "navbar-link"} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>

@@ -18,7 +18,7 @@
         @apply text-xl m-3 tracking-wide hover:text-[#AA367C]
     }
     .social-media-icon {
-        @apply text-2xl gradient-text
+        @apply text-2xl sm:text-lg md:text-xl gradient-text
     }
     .active {
         @apply text-white
