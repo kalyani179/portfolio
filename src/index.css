@@ -35,6 +35,12 @@
     .active-tab {
         @apply transition duration-300 ease-in-out
     }
+    .hide {
+        @apply opacity-0 pointer-events-none duration-100;
+    }
+    .show {
+        @apply opacity-100 pointer-events-auto;
+    }
     /* .active {
         @apply
     } */

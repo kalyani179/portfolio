@@ -11,7 +11,7 @@ const Body = () => {
             <div className="sm:center md:center sm:flex-col md:flex-col mt-20 space-y-1">
                 <Zoom duration={1500}>
                 <h1 className="text-[50px] sm:text-3xl md:text-3xl font-playfairdisplay italic font-bold md:w-full sm:w-full sm:text-center md:text-center">
-                    Hey, I'm <span className="gradient-text">Kalyani&nbsp;</span><span className="sm:hidden">Dantuluri.</span>
+                    Hey, I'm <span className="gradient-text font-playfairdisplay">Kalyani&nbsp;</span><span className="sm:hidden font-playfairdisplay italic">Dantuluri.</span>
                 </h1>
                 </Zoom>
                 <Zoom duration={1500}>
