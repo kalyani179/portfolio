@@ -50,7 +50,7 @@ const NavBar = () => {
             </Nav>
         {
             isNavOpen && (
-            <Nav className={`xl:hidden me-auto border border-white border-opacity-25 px-6 sm:absolute md:absolute lg:absolute sm:top-0 md:top-0 lg:top-0 sm:right-0 md:right-0 lg:right-0 sm:z-30 md:z-30 lg:z-30 sm:py-24 md:py-24 lg:py-24 sm:pb-32 md:pb-32 lg:pb-32 sm:pl-10 md:pl-10 lg:pl-10 sm:h-full md:h-full lg:h-full sm:border-none md:border-none lg:border-none sm:grid md:grid lg:grid sm:grid-rows-5 md:grid-rows-5 lg:grid-rows-5 sm:bg-black/80 md:bg-black/80 lg:bg-black/80`}>
+            <Nav className={`xl:hidden me-auto border border-white border-opacity-25 px-6 sm:absolute md:absolute lg:absolute sm:top-0 md:top-0 lg:top-0 sm:right-0 md:right-0 lg:right-0 sm:z-30 md:z-30 lg:z-30 sm:py-24 md:py-24 lg:py-24 sm:pb-32 md:pb-32 lg:pb-32 sm:pl-10 md:pl-10 lg:pl-10 sm:h-full md:h-full lg:h-full sm:border-none md:border-none lg:border-none sm:grid md:grid lg:grid sm:grid-rows-5 md:grid-rows-5 lg:grid-rows-5 sm:bg-black/75 md:bg-black/75 lg:bg-black/75`}>
                 <Nav.Link href="#home" className={activeLink === "home" ? "navbar-link active" : "navbar-link"} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
                 <Nav.Link href="#about" className={activeLink === "about" ? "navbar-link active" : "navbar-link"} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
                 <Nav.Link href="#skills" className={activeLink === "skills" ? "navbar-link active" : "navbar-link"} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>

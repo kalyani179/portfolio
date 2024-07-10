@@ -8,7 +8,7 @@ const About = () => {
     }
     return (
         <Zoom duration={2000}>
-        <div className="flex flex-col justify-center items-center pb-14" id="about">
+        <div className="flex flex-col justify-center items-center pb-14 sm:pt-9" id="about">
             <div>
                 <h1 className="heading">About Me</h1>
                 <p className="tagline">I am a passionate and skilled software developer specializing in the MERN stack, dedicated to building innovative and user-friendly applications.</p>
@@ -45,10 +45,11 @@ const About = () => {
                     <div>
                         <ul className="text-xl sm:text-base md:text-lg space-y-5">
                             <li>I love myself deeply and prioritize self-care and personal growth.</li>
-                            <li>I am kind-hearted. I enjoy helping others and spreading positivity.</li>
+                            {/* <li>I am kind-hearted. I enjoy helping others and spreading positivity.</li>*/}
                             <li>I am an easy-going person, staying calm and adaptable in various situations.</li>
                             <li>I am very strong-willed and resilient, facing challenges with determination and courage.</li>
                             <li>I am tenacious. I remain committed and dedicated to achieving my goals. I don't give up easily.</li>
+                            <li>I am adaptable and positive, easily adjusting to new situations and maintaining an optimistic attitude.</li>
                         </ul>
                     </div>
                 }

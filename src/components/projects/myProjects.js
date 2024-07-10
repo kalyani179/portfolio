@@ -7,7 +7,7 @@ const MyProjects = [
         name:"MVGR Voices",
         url:"https://mvgrvoices.onrender.com",
         logo:MVGRVoices,
-        description:"A dynamic online platform enabling students to express their ideas through podcasts and blogs, featuring an engaging UI, real-time notifications, email verification, and a specialized chatbot for enhanced UX."
+        description:"A dynamic online platform encouraging students to express their ideas,stories & experiences through podcasts and blogs. This Project achieved a milestone of over 2000 users from our college."
     },
     {
         id:2,

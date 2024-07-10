@@ -24,7 +24,7 @@
         @apply text-white
     }
     .heading {
-        @apply text-center text-6xl sm:text-4xl md:text-4xl font-bold tracking-wide pt-10 pb-7
+        @apply text-center text-6xl sm:text-4xl md:text-4xl font-lato font-extrabold tracking-wide pt-10 pb-7
     }
     .tagline {
         @apply text-center text-xl sm:text-base md:text-lg mx-44 sm:mx-4 md:mx-5

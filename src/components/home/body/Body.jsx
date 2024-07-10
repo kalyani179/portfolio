@@ -20,7 +20,7 @@ const Body = () => {
                 </Zoom>
             </div>
             <Fade right duration={3000}>
-            <div className="flex flex-col space-y-2 absolute top-72 sm:top-32 md:top-40 right-5 sm:right-2">
+            <div className="flex flex-col space-y-2 sm:space-y-0 absolute top-72 sm:top-32 md:top-40 right-5 sm:right-2">
                 <Rotate duration={3000}>
                     <a target="_" href="https://www.linkedin.com/in/kalyani-dantuluri-5a253023b/"><i class="fi fi-brands-linkedin social-media-icon"></i></a> 
                 </Rotate>
