@@ -21,15 +21,27 @@ const Body = () => {
             </div>
             <Fade right duration={3000}>
             <div className="flex flex-col space-y-2 sm:space-y-0 absolute top-72 sm:top-32 md:top-40 right-5 sm:right-2">
-                <Rotate duration={3000}>
-                    <a target="_" href="https://www.linkedin.com/in/kalyani-dantuluri-5a253023b/"><i class="fi fi-brands-linkedin social-media-icon"></i></a> 
-                </Rotate>
-                <Rotate duration={3000}>
-                    <a target="_" href="https://github.com/kalyani179"><i class="fi fi-brands-github social-media-icon"></i></a>
-                </Rotate>
-                <Rotate duration={3000}>
-                    <a target="_" href="mailto:dantulurikalyani999@gmail.com"><i class="fi fi-sr-envelope social-media-icon"></i></a> 
-                </Rotate>
+                <div className="hover-effect hover:scale-125">
+                    <Rotate duration={3000}>
+                        <a target="_" href="https://www.linkedin.com/in/kalyani-dantuluri-5a253023b/">
+                            <i className="fi fi-brands-linkedin social-media-icon"></i>
+                        </a>
+                    </Rotate>
+                </div>
+                <div className="hover-effect hover:scale-125">
+                    <Rotate duration={3000}>
+                        <a target="_" href="https://github.com/kalyani179">
+                            <i className="fi fi-brands-github social-media-icon"></i>
+                        </a>
+                    </Rotate>
+                </div>
+                <div className="hover-effect hover:scale-125">
+                    <Rotate duration={3000}>
+                        <a target="_" href="mailto:dantulurikalyani999@gmail.com">
+                            <i className="fi fi-sr-envelope social-media-icon"></i>
+                        </a>
+                    </Rotate>
+                </div>
             </div>
         </Fade>
             

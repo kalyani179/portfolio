@@ -41,6 +41,9 @@
     .show {
         @apply opacity-100 pointer-events-auto;
     }
+    .hover-effect{
+        @apply transition-transform duration-300 ease-in-out transform hover:scale-105
+    }
     /* .active {
         @apply
     } */
