@@ -1,4 +1,4 @@
-# Portfolio
+# [Portfolio]([https://kalyani179.github.io/portfolio/])
 
 Welcome to my portfolio repository! This portfolio showcases my skills, projects, and experience as a software developer specializing in the MERN stack.
 
@@ -33,6 +33,14 @@ I am a passionate and skilled software developer with expertise in building web 
 - **Backend**: Node.js, Express.js
 - **Databases**: MongoDB, Firebase
 - **Tools & Others**: Git, Docker, RESTful APIs
+
+## Contact
+Feel free to reach out to me to discuss collaboration opportunities or to connect!
+- **Email**: your.email@example.com
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- **GitHub**: [GitHub Profile](https://github.com/yourusername)
+- **Portfolio**: 
+
 
 ## Contact
 Feel free to reach out to me to discuss collaboration opportunities or to connect!
