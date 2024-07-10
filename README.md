@@ -1,6 +1,6 @@
-# [Portfolio]([https://kalyani179.github.io/portfolio/])
+# [Portfolio]
 
-Welcome to my portfolio repository! This portfolio showcases my skills, projects, and experience as a software developer specializing in the MERN stack.
+Welcome to my portfolio repository! This portfolio showcases my skills, projects, and experience as a software developer specializing in the MERN stack. you can view my portfolio [click here](https://kalyani179.github.io/portfolio/)
 
 ## Table of Contents
 - [About Me](#about-me)
